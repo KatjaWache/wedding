@@ -26,7 +26,7 @@ h2 {
 p {
   font-family: 'Raleway', sans-serif;
   font-weight: normal;
-  font-size: 1rem;
+  font-size: 1.5rem;
   line-height: 1.5;
   padding: 0.5em 0em 0.5em 0em;
  }
@@ -54,7 +54,6 @@ a:active {
      border-radius: 2px;
      padding: 2px;
  }
-
 
 /**Navigation**/
 
@@ -155,7 +154,65 @@ button:focus {
   outline: 1px dotted;
   background-color: #428572;
 }
+/**Intro**/
 
+.intro-container {
+  margin: 1rem 1rem;
+  background-color: #fff;
+  text-align: center;
+  box-shadow: 20px #000;
+}
+
+.intro-text h1{
+
+}
+/*details*/
+
+.container2 {
+  display: flex;
+  margin: 32px 24px;
+}
+
+.item2-1 {
+  width: 60%;
+}
+
+.item2-1 img {
+  width: 100%;
+}
+
+.item2-1 h1 {
+  padding: 32px 0px 24px 0px;
+}
+
+.item2-2 {
+  width: 40%;
+
+}
+
+.item2-2 img {
+  width: 35%;
+  height: auto;
+  padding: 16px 16px;
+}
+
+.item2-2-a {
+  display: flex;
+  align-items: center;
+}
+
+.item2-2-a:hover {
+  background-color: #C0C0C0;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: all 2s;
+}
+
+
+.item-description {
+flex-direction: column;
+padding: 8px 0px;
+}
 
 
 /*Responsive-design*/
@@ -243,7 +300,7 @@ nav.mobile  {
 /**Banner**/
 
 .hero-image {
-  background-image: url("../images/final-mobile-banner-final.svg");
+  background-image: url("../images/mobile-banner-v2.svg");
   height: 40%;
   background-position: center;
   background-repeat: no-repeat;
@@ -258,3 +315,15 @@ nav.mobile  {
 .hero-text button:hover {
   font-size: 1.2rem;
 }
+
+
+/*Skype chat bubble*/
+  box-sizing: border-box
+
+/*You can change the position*/
+.bubble .lwc-chat-button
+  right: 20px !important
+  bottom: 20px !important
+/*If box-sizing: border-box*/
+
+  box-sizing: content-box
