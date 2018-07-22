@@ -106,7 +106,7 @@ body, html {
 
 .hero-image {
   background-image: url("../images/banner-final.svg");
-  height: 50%;
+  height: 60%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -169,49 +169,27 @@ button:focus {
 /*details*/
 
 .container2 {
+  background-image: url("../images/banner-locationw-opacity.jpg");
   display: flex;
-  margin: 32px 24px;
+  padding: 3rem 3rem;
 }
 
 .item2-1 {
   width: 60%;
 }
 
-.item2-1 img {
-  width: 100%;
-}
-
-.item2-1 h1 {
-  padding: 32px 0px 24px 0px;
-}
-
 .item2-2 {
   width: 40%;
-
+  padding: 0 0 0 3rem;
 }
 
-.item2-2 img {
-  width: 35%;
-  height: auto;
-  padding: 16px 16px;
-}
-
-.item2-2-a {
-  display: flex;
-  align-items: center;
-}
-
-.item2-2-a:hover {
-  background-color: #C0C0C0;
-  border-radius: 2px;
-  cursor: pointer;
-  transition: all 2s;
-}
-
+  video {
+    width: 100%;
+  }
 
 .item-description {
 flex-direction: column;
-padding: 8px 0px;
+padding: 0.5rem 0rem;
 }
 
 
@@ -316,11 +294,32 @@ nav.mobile  {
   font-size: 1.2rem;
 }
 
+.container2{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 0rem 0rem;
+  padding: 0rem 0rem;
+}
+
+.item2-1 {
+  width: 100%;
+  padding:0rem 0rem;
+  margin-bottom: 1rem;
+ }
+
+.item2-2 {
+  width: auto;
+  padding: 0rem 2rem 0rem 2rem;
+  margin-bottom: 1rem;
+}
+
 
 /*Skype chat bubble*/
-  box-sizing: border-box
+  box-sizing: border-box**
 
 /*You can change the position*/
+
 .bubble .lwc-chat-button
   right: 20px !important
   bottom: 20px !important
