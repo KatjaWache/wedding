@@ -241,17 +241,17 @@ margin: 0rem 2rem;
 /*details*/
 
 .container2 {
-  /**background-image: url("../images/banner-locationw-opacity.jpg");**/
+  background-image: url("../images/banner-locationw-opacity.jpg");
   display: flex;
   padding: 3rem 3rem;
 }
 
 .item2-1 {
-  width: 60%;
+  width: 50%;
 }
 
 .item2-2 {
-  width: 40%;
+  width: 50%;
   padding: 0 0 0 3rem;
 }
 
