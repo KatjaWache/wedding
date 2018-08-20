@@ -2,9 +2,10 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Katja & Ryan's wedding</title>
     <link rel="stylesheet" href="resources\css\reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="resources\css\style.css">
     <link rel="icon" href="resources\images\favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Quicksand:400,500,700|Raleway:400,400i" rel="stylesheet">
@@ -27,8 +28,8 @@
       </div>
       <ul class="main">
         <li><a href="#">When</a></li>
-        <li><a href="#">Where</a></li>
-        <li><a href="#">What</a></li>
+        <li><a href="#location">Where</li></a>
+        <li><a href="#programme">What</a></li>
         <li><a href="#">RSVP</a></li>
       </ul>
     </nav>
@@ -39,9 +40,10 @@
           <img src="resources/images/heart.png" alt="Joining hearts" height="40" width="60">
           <span>Ryan & Katja</span>
          </div>
-          <a href="#"> <img src="resources/images/calendar-.svg" alt="Date of the wedding, 12 January 2019"></a>
-          <a href="#"><img src="resources/images/geo-icon-mobile.svg" alt="Location, Little Akaloa Banks Peninsula"></a>
-          <a href="#"><img src="resources/images/contact-us-.svg" alt="Contact us"></a>
+          <a href="#"> <img src="resources/images/calendar-icon.svg" alt="Date of the wedding, 12 January 2019" height="30" width="50"></a>
+          <a href="#location"><img src="resources/images/location-pin.svg" alt="Location, Little Akaloa Banks Peninsula" height="35" width="55"></a>
+          <a href="#programme"> <img src="resources/images/programme-icon.svg" alt="Wedding programme" height="30" width="50"></a>
+          <a href="#"><img src="resources/images/letter-icon.svg" alt="Contact us" height="35" width="55"></a>
     </nav>
 
     </header>
@@ -66,12 +68,12 @@
           <p style="align-items: center;">When</p>
         </div>
         <div class="overview-items">
-          <img src="resources\images\location-pin.svg" alt="icon location" width="200" height="200" >
-          <p>Where</p>
+        <a href="#location"> <img src="resources\images\location-pin.svg" alt="icon location" width="200" height="200" >
+          <p>Where</p></a>
         </div>
         <div class="overview-items">
-          <img src="resources\images\programme-icon.svg" alt="icon programme" width="200" height="200" >
-          <p>What</p>
+        <a href="#programme"> <img src="resources\images\programme-icon.svg" alt="icon programme" width="200" height="200" >
+          <p>What</p></a>
         </div>
         <div class="overview-items">
           <img src="resources\images\letter-icon.svg" alt="icon location" width="200" height="200">
@@ -80,8 +82,31 @@
        </div>
       </div>
 
+<!--Overview mobile-->
+
+<div class="overview-mobile">
+        <div class="ov-mobile-list">
+          <div class="ov-mobile-items">
+          <img src="resources\images\calendar-icon.svg" alt="icon calendar" width="40" height="60" >
+          <p style="align-items: center;">When</p>
+        </div>
+        <div class="ov-mobile-items">
+        <a href="#location"> <img src="resources\images\location-pin.svg" alt="icon location" width="40" height="60" >
+          <p>Where</p></a>
+        </div>
+        <div class="ov-mobile-items">
+        <a href="#programme"> <img src="resources\images\programme-icon.svg" alt="icon programme" width="40" height="60" >
+          <p>What</p></a>
+        </div>
+        <div class="ov-mobile-items">
+          <img src="resources\images\letter-icon.svg" alt="icon location" width="40" height="60">
+          <p>RSVP</p>
+        </div>
+       </div>
+      </div>
+
 <!--Programme-->
-<div class="programme">
+<div class="programme" id="programme">
         <div class="programme-heading">
           <h1>Programme</h1>
         </div>
@@ -91,7 +116,8 @@
            <div class="programme-description">
              <h2>Friday 11 January</h2>
              <h3>Polterabend</h3>
-             <h3>Time: 4.00pm</h3>
+             <p>Time: 4.00pm</p>
+             <p>Location: Tennis club</p>
            </div>
          </div>
         <div class="programme-items">
@@ -99,9 +125,11 @@
          <div class="programme-description">
            <h2>Saturday 12</h2>
            <h3>Ceremony</h3>
-           <h3>Time: 3.30pm</h3>
+           <p>Time: 3.30pm</p>
+           <p>Location:Beach</p>
            <h3>Reception</h3>
-           <h3>Time: 4.30pm</h3>
+           <p>Time: 4.30pm till late</p>
+           <p>Location:Marquee</p>
          </div>
         </div>
         <div class="programme-items">
@@ -109,41 +137,44 @@
           <div class="programme-description">
             <h2>Sunday 13</h2>
             <h3>Sunday Brunch</h3>
-            <h3>Time: 10am</h3>
+            <p>Time: 10am</p>
+            <p>Location: Marquee</p>
           </div>
         </div>
        </div>
       </div>
-
-
-
+    <div class="note">
+        <p>*We will move the ceremony to the marquee if the weather is a little inclement. If it's raining cats and dogs we'll head to the tennis club.</p>
+    </div>
 
 <!--location -->
-<div class="location">
-        <div class="location-heading">
-          <h1 class="item-description"><img src="resources\images\geo-icon-mobile.svg" alt="location pin:Little Akaloa"height="50" width="70">Where you should be</h1>
-          <p class="item-description">Located on the north eastern side of Banks Peninsula, approximately an hour and twenty minutes’ drive from Christchurch. We will help facilitate transport for those traveling from afar. </p>
-       <div class="location-container">
-      <div class="item2-1">
-         <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1bmDs5ZoekMU8SYeu9bL128jo_B1ezgUB" width="640" height="480"></iframe>
 
-       </div>
-      <div class="item2-2">
-        <h1 class="item-description">Little Akaloa</h1>
-        <ul class="a">
+<div class="location" id="location">
+  <div class="location-heading">
+    <h1 class="item-description"><img src="resources\images\geo-icon-mobile.svg" alt="location pin:Little Akaloa"height="50" width="70">Little Akaloa, Banks Peninsula</h1>
+  </div>
+  <div class="location-container">
+      <div class="item2-1">
+        <h2 class="item-description">Things to know</h2>
+        <p class="item-description">Located on the north eastern side of Banks Peninsula, approximately an hour and twenty minutes’ drive from Christchurch. We will help facilitate transport for those traveling from afar. </p>
+        <ul>
           <li>Plenty of parking along the waterfront</li>
           <li>Waterfront camping ground</li>
           <li>No shops nor cellphone coverage, however, both can be found with a drive if need be</li>
         </ul>
+        <p><strong>Click on the icons on the map to find out more.</strong></p>
       </div>
-            <!-- <div class="item2-2">
-                <video src="resources\videos\Little Akaloa.mp4" controls ></video>
-                    <p>The bach has been in the Iggo family for over 60 years and Ryan's granddad, Daisy, build it with his own hands. Not much has changed since. The ultimate Kiwi bach.</p>
-                  </div>-->
-         </div>
-
+      <div class="item2-2">
+         <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1bmDs5ZoekMU8SYeu9bL128jo_B1ezgUB" width="640" height="480"></iframe>
       </div>
+     </div>
     </div>
+<div class="accom">
+  <h2>Accommodation</h2>
+  <p>We have secured an exclusive waterfront paddock for you to pitch a tent or set up your glamping station. There are toilet blocks and showers can be found if the ocean doesn’t cut the mustard.</p>
+  <p>If camping is not your scene we have secured a few baches. We do have secured most baches and if there are beds available, after our allocation we will send out some notification if there are spare beds available.</p>
+</div>
+
     <!--Place holder-->
 
       <h1>Hi there.</h1>
