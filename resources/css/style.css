@@ -11,7 +11,7 @@ h1 {
   font-weight: 800;
   line-height: 1.5;
   padding: 0rem;
-  color: #B8707B;
+  color: #bd8477;
 }
 
 h2 {
@@ -288,6 +288,7 @@ margin: 0rem 2rem;
 /*location*/
 
 .location {
+  margin-bottom: 3rem;
 }
 
 .location-container{
@@ -301,7 +302,7 @@ margin: 0rem 2rem;
 }
 
 .item2-1 {
-
+width: 715px;
 }
 
 .item2-2 {
@@ -330,12 +331,39 @@ padding: 0.5rem 0rem;
   text-align: left;
 }
 
-.activities {
-  text-align: left;
-  padding: 0rem 3rem;
 
 
+/*footer*/
+
+footer {
+  padding: 5.2rem 0;
+  background-color: #428572;
+  text-align: center;
+  border-top: solid 1px #555;
 }
+
+footer h1 {
+  width: 100%;
+  padding: 1rem 0rem;
+  display: inline-block;
+  margin-bottom: 1.4rem;
+  font-size: 2.5rem;
+  font-weight: bold;
+  background-color: #428572;
+  color: #fff;
+}
+
+footer p {
+  font-size: 0.8rem;
+  max-width: 42rem;
+  margin: auto;
+  color: #fff;
+}
+
+.footer-button {
+  margin: 2rem 0rem;
+}
+
 
 /*Responsive-design*/
 
@@ -528,6 +556,14 @@ display: none;
   text-align: left;
 }
 
+footer {
+  margin-top: 2rem;
+}
+
+footer h1 {
+  font-size: 1.5rem;
+  color: #fff;
+}
 
 /*Skype chat bubble*/
   box-sizing: border-box**
