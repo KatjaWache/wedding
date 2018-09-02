@@ -52,6 +52,10 @@ a:visited {
      background-color: none;
  }
 
+
+
+/**Navigation**/
+
 nav a:hover {
      text-decoration: underline;
      color: #428572;
@@ -195,6 +199,24 @@ button:focus {
   background-color: #428572;
 }
 
+/**About us**/
+
+.about {
+  display: flex;
+  padding: 0rem 3rem 0rem 3rem;
+  background-color: #7ba99c;
+  color: #fff;
+}
+
+.about-image {
+  max-width: 100%;
+}
+
+
+.about-text {
+  align-content: center;
+  padding: 5rem 3rem 5rem 0rem;
+}
 
 /*overview*/
 
@@ -236,7 +258,7 @@ align-content: space-around;
 /*programme*/
 
 .programme-heading {
-  padding: 0rem 1.5rem 2rem 1rem;
+  padding: 3rem 1.5rem 2rem 1rem;
   text-align: center;
 }
 
@@ -278,6 +300,18 @@ margin: 0rem 2rem;
   text-transform: uppercase;
   line-height: 0.5;
   }
+
+  .programme-description a:hover {
+       text-decoration: underline;
+       color: #428572;
+
+   }
+
+  .programme-description a:active {
+       border: 1px dotted;
+       border-radius: 2px;
+       padding: 2px;
+   }
 
 .note p {
   padding: 0rem 1.5rem 2rem 1rem;
@@ -331,6 +365,36 @@ padding: 0.5rem 0rem;
   text-align: left;
 }
 
+/*wedding party*/
+
+
+.party-heading {
+  padding: 0rem 1.5rem 2rem 1rem;
+  text-align: center;
+}
+
+.party-list {
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+padding-bottom: 2rem;
+margin: 0rem 2rem;
+}
+
+.party-items {
+  max-width: 30%;
+  margin: 1rem;
+  background-color: white;
+}
+
+
+.party-description {
+  padding: 0rem 1rem 1rem 1rem;
+}
+
+.party-description h2{
+  padding: 0.5em 0em 0.5em 0em;
+}
 
 
 /*footer*/
@@ -451,6 +515,9 @@ nav.mobile  {
   align-items: center;
  }
 
+ .about-image {
+   max-width: 50%;
+ }
 
 /**Banner**/
 
@@ -518,6 +585,24 @@ nav.mobile  {
 display: none;
 }
 
+/**about**/
+
+.about {
+  flex-wrap: wrap;
+  padding: 0rem;
+  margin: 0rem;
+}
+
+.about-image {
+  max-height: 50%;
+  align-content: center;
+
+}
+
+.about-text {
+  padding: 1rem 0rem 1rem 1rem;
+}
+
 /**Programme**/
 
 .programme-items {
@@ -561,6 +646,10 @@ display: none;
   text-align: left;
 }
 
+.party-items {
+  max-width: 100%;
+}
+
 footer {
   margin-top: 2rem;
 }
@@ -568,6 +657,10 @@ footer {
 footer h1 {
   font-size: 1.5rem;
   color: #fff;
+}
+
+.party-items {
+  width: 100%;
 }
 
 /*Skype chat bubble*/
