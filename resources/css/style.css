@@ -210,7 +210,7 @@ button:focus {
 
 .about-image {
   max-width: 100%;
-  padding: 3rem 0rem;
+  padding: 8.5rem 0rem;
 }
 
 
@@ -518,6 +518,7 @@ nav.mobile  {
 
  .about-image {
    max-width: 50%;
+   padding: 1rem 0rem;
  }
 
 /**Banner**/
@@ -595,8 +596,9 @@ display: none;
 }
 
 .about-image {
-  max-height: 50%;
-  align-content: center;
+  padding: 0rem;
+  margin: 0rem;  
+
 
 }
 
