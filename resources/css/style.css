@@ -658,6 +658,7 @@ display: none;
 
 
 .accom {
+  margin-top: 3rem;
   padding: 1rem 2rem;
   text-align: left;
 }
@@ -668,8 +669,10 @@ display: none;
 }
 
 .party-list {
-padding: 1rem 2rem;
-margin: 0rem 0rem;
+flex-wrap: wrap;
+text-align: center;
+padding: 0rem;
+margin: 0rem;
 }
 
 .party-items {
@@ -685,9 +688,7 @@ footer h1 {
   color: #fff;
 }
 
-.party-items {
-  width: 100%;
-}
+
 
 /*Skype chat bubble*/
   box-sizing: border-box**
