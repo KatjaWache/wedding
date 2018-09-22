@@ -318,7 +318,7 @@ margin: 0rem 2rem;
 .note p {
   padding: 0rem 1.5rem 2rem 1rem;
   text-align: center;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 /*location*/
@@ -390,14 +390,14 @@ margin: 0rem 2rem;
 }
 
 .party-items {
-  max-width: 30%;
+  max-width: 35%;
   margin: 1rem;
   background-color: white;
 }
 
 
 .party-description {
-  padding: 0rem 1rem 1rem 1rem;
+
 }
 
 .party-description h2{
@@ -448,36 +448,120 @@ h1 {
  }
 
 h2 {
-  font-size: 1rem;
+  font-size: 1.3rem;
   font-weight: 700;
   line-height: 1.2;
   padding: 0rem;
  }
 
-h2 {
-  font-weight: 600;
-  font-size: 0.75rem;
-  line-height: 1;
-  padding: 0.5rem 0rem 0.5rem 0rem;
- }
 
 h3 {
   font-weight: 400;
-  font-size: 0.8rem;
+  font-size: 1.1rem;
   line-height: 1;
  }
 
 p {
   font-weight: normal;
-  font-size: 0.5rem;
+  font-size: 1rem;
   line-height: 1;
   padding: 0.5rem 0rem 0.5rem 0rem;
+ }
+
+ ul {
+     font-size: 1rem;
+     margin-left: 0.5em;
+     padding: 0.5em 0em 0.5em 0em;
+     line-height: 1.5;
  }
 
 .hero-text button  {
   font-size: 2rem;
 
 }
+
+/*overview*/
+
+.overview-list {
+display: flex;
+justify-content: center;
+flex-wrap: wrap
+align-content: space-around;
+}
+
+.overview-items {
+  margin: 0rem;
+  padding-top: 1rem;
+}
+
+.overview img {
+  height: 35%;
+
+}
+
+
+.overview-items p {
+  padding-left:4.7rem;
+}
+
+/**About us**/
+
+.about {
+  padding: 0rem;
+
+}
+
+.about-image {
+  max-width: 100%;
+  padding: 7.5rem 0rem;
+
+}
+
+
+.about-text {
+  align-content: center;
+  padding: 5rem 3rem 5rem 0rem;
+}
+
+/**programme**/
+
+.programme-list {
+display: flex;
+justify-content: center;
+padding-bottom: 2rem;
+margin: 0rem 2rem;
+}
+
+.programme-items {
+  max-width: 30%;
+  margin: 0.5rem;
+  background-color: white;
+  box-shadow: 2px 5px 9px #8787A7;
+  transition: box-shadow .5s;
+}
+
+/*location*/
+
+.location {
+  margin-bottom: 2rem;
+}
+
+.location-container{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0rem 2rem 0rem 2rem;
+}
+
+.item2-1 {
+width: 715px;
+padding: 0rem 1rem;
+}
+
+.item2-2 {
+  padding: 2rem;
+}
+
+
 
 
 /*Mobile*/
@@ -679,6 +763,7 @@ margin: 0rem;
   max-width: 100%;
 }
 
+
 footer {
   margin-top: 2rem;
 }
@@ -688,16 +773,36 @@ footer h1 {
   color: #fff;
 }
 
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #428572; /* Set a background color */
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+}
 
+#myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+}
 
 /*Skype chat bubble*/
-  box-sizing: border-box**
+  box-sizing: border-box
 
 /*You can change the position*/
 
 .bubble .lwc-chat-button
   right: 20px !important
   bottom: 20px !important
-/*If box-sizing: border-box*/
+If box-sizing: border-box
 
   box-sizing: content-box
