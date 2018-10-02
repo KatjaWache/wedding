@@ -35,7 +35,7 @@ p {
   font-family: 'Raleway', sans-serif;
   font-weight: normal;
   font-size: 1.2rem;
-  line-height: 1;
+  line-height: 1.2;
   padding: 0.5em 0em 0.5em 0em;
  }
 
@@ -292,6 +292,7 @@ margin: 0rem 2rem;
 
 .programme-description {
   padding: 0rem 1rem 1rem 1rem;
+  text-align: center;
 }
 
 .programme-description h2{
@@ -301,6 +302,10 @@ margin: 0rem 2rem;
 .programme-description h3 {
   text-transform: uppercase;
   line-height: 0.5;
+  }
+
+  .programme-description a {
+    color: #428572;
   }
 
   .programme-description a:hover {
@@ -324,7 +329,7 @@ margin: 0rem 2rem;
 /*location*/
 
 .location {
-  margin-bottom: 3rem;
+   margin: 0rem 7rem 3rem 7rem;
 }
 
 .location-container{
@@ -404,6 +409,21 @@ margin: 0rem 0rem;
   padding: 0.5em 0em 0.5em 0em;
 }
 
+.party-description a {
+  color: #428572;
+}
+
+.party-description a:hover {
+     text-decoration: underline;
+     color: #428572;
+
+ }
+
+.party-description a:active {
+     border: 1px dotted;
+     border-radius: 2px;
+     padding: 2px;
+ }
 
 /*footer*/
 
@@ -485,7 +505,7 @@ h3 {
 p {
   font-weight: normal;
   font-size: 1rem;
-  line-height: 1;
+  line-height: 1.2;
   padding: 0.5rem 0rem 0.5rem 0rem;
  }
 
@@ -534,14 +554,14 @@ align-content: space-around;
 
 .about-image {
   max-width: 100%;
-  padding: 7.5rem 0rem;
+  padding: 7.5rem 0rem 7.5rem 3rem;
 
 }
 
 
 .about-text {
   align-content: center;
-  padding: 5rem 3rem 5rem 0rem;
+  padding: 5rem 3rem 5rem 3rem;
 }
 
 /**programme**/
@@ -564,7 +584,7 @@ margin: 0rem 2rem;
 /*location*/
 
 .location {
-  margin-bottom: 2rem;
+  margin: 1.9rem;
 }
 
 .location-container{
@@ -575,7 +595,7 @@ margin: 0rem 2rem;
 
 .item2-1 {
 
-padding: 0rem 8rem 0rem 3rem;
+padding: 0rem 8rem 2rem 3rem;
 }
 
 .item2-2 {
@@ -610,7 +630,7 @@ h2 {
  }
 
 p {
-  font-size: 1rem;
+  font-size: 1.2rem;
   padding: 0 0 0.5rem 0;
  }
 
